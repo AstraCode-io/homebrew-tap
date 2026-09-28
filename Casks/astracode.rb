@@ -1,6 +1,6 @@
 cask "astracode" do
-  version "1.126.06506"
-  sha256 "da4a58c29c1d888709bd16b8db3d5d4787b8778c1d3585231ca69b6f78cbd5e1"
+  version "1.126.06516"
+  sha256 "42a2c6a5b715dae9aa4d5884a388df0cdab0d32a49e7dcb82551e02fc59f0744"
 
   url "https://astracode.io/downloads/AstraCode-darwin.zip"
   name "AstraCode"

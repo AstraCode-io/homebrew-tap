@@ -3,7 +3,7 @@
 class AstracodeAgent < Formula
   desc "AstraCode's coding agent, headless: run one task from a shell, CI job or script"
   homepage "https://astracode.io"
-  version "0.5.1"
+  version "0.5.2"
 
   livecheck do
     url "https://astracode.io/downloads/cli/latest"
@@ -12,23 +12,23 @@ class AstracodeAgent < Formula
 
   on_macos do
     on_arm do
-      url "https://astracode.io/downloads/cli/0.5.1/astracode-agent-0.5.1-darwin-arm64.tar.gz"
-      sha256 "b78c391e57fdd6570096b8c5945baf5d98c446f65e5847459846c850e0438f1e"
+      url "https://astracode.io/downloads/cli/0.5.2/astracode-agent-0.5.2-darwin-arm64.tar.gz"
+      sha256 "20f600a7bde2f960e90afe87ec357618c8d96a125a7a84dd020bdfd81f43151a"
     end
     on_intel do
-      url "https://astracode.io/downloads/cli/0.5.1/astracode-agent-0.5.1-darwin-x64.tar.gz"
-      sha256 "d6afa0c13ca31ec25da10f4d061039d8adebdb1dae04134bbbbd8b3d4431f89f"
+      url "https://astracode.io/downloads/cli/0.5.2/astracode-agent-0.5.2-darwin-x64.tar.gz"
+      sha256 "0a27b15272f8969ca78f4886b50a8d3a9487ed4b4e38c3d004daa3e669ec95d1"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://astracode.io/downloads/cli/0.5.1/astracode-agent-0.5.1-linux-arm64.tar.gz"
-      sha256 "dfca6cbdf2c9293b098032d8e3fa7b49035c7a5d06afcfeca5269d1dfac01b43"
+      url "https://astracode.io/downloads/cli/0.5.2/astracode-agent-0.5.2-linux-arm64.tar.gz"
+      sha256 "865e06d712dafb5b60a22a2a7f9bbd605c5f383d39a95d8156d9fa71ecc91bfc"
     end
     on_intel do
-      url "https://astracode.io/downloads/cli/0.5.1/astracode-agent-0.5.1-linux-x64.tar.gz"
-      sha256 "09b41d98106d378d064c20778fb686baee64071660503a14c39db26be7ec1826"
+      url "https://astracode.io/downloads/cli/0.5.2/astracode-agent-0.5.2-linux-x64.tar.gz"
+      sha256 "21108a23486a29248dc2d2e2304b6402fde709faf62604e2aa3f50b1570f2f65"
     end
   end
 
